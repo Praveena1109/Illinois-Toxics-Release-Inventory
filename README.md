@@ -1,4 +1,4 @@
-# Illinois Toxics Release Inventory (TRI) — Curated Dataset 2010–2024
+# Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010–2024
 
 > A reproducible data curation project transforming 15 years of U.S. EPA annual regulatory files into a structured, documented, and reusable environmental research resource.
 
@@ -149,7 +149,7 @@ These are retained because:
 
 ### Sudden Change Flag
 
-Records with >100% year-over-year change in `TOTAL_RELEASES` for a given facility-chemical pair are flagged (`FLAG_SUDDEN_CHANGE`). These are **not removed** — sudden changes may reflect genuine events (one-time releases), facility expansions, or reporting corrections. Analysts should review them contextually.
+Records with >100% year-over-year change in `TOTAL_RELEASES` for a given facility-chemical pair are flagged (`FLAG_SUDDEN_CHANGE`). These are **not removed** - sudden changes may reflect genuine events (one-time releases), facility expansions, or reporting corrections. Analysts should review them contextually.
 
 ---
 
