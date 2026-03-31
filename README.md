@@ -181,7 +181,7 @@ All curation transformations are documented in `docs/curation_log.md`.
 
 ## 7. References
 
-U.S. Environmental Protection Agency. (2024). *TRI Basic Data Files Documentation (RY 2023)*. https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-guide
+U.S. Environmental Protection Agency. (2024). *TRI Basic Data Files Documentation (RY 2023)*. https://www.epa.gov/system/files/documents/2025-09/basic_data_files_documentation_august_2024.pdf
 
 Wilkinson, M. D., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. *Scientific Data, 3*, 160018.
 
