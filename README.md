@@ -3,7 +3,7 @@
 > A reproducible data curation project transforming 15 years of U.S. EPA annual regulatory files into a structured, documented, and reusable environmental research resource.
 
 **Dataset scope:** Illinois · 2010–2024 · 58,317 records · 1,533 facilities · 334 chemicals   
-**Status:** Active - Phase 5 (Documentation) in progress
+**Status:** In progress
 
 ---
 
