@@ -173,8 +173,7 @@ Records with >100% year-over-year change in `TOTAL_RELEASES` for a given facilit
 **Program:** Toxics Release Inventory (TRI)  
 **File type:** TRI Basic Data Files (state CSV format)  
 **Download URL:** https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present  
-**License:** Public domain (EPA data); see https://edg.epa.gov/EPA_Data_License.html  
-**Documentation:** [TRI Basic Data Files Guide (August 2024)](https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-guide)
+**Documentation:** [TRI Basic Data Files Guide (August 2024)](https://www.epa.gov/system/files/documents/2025-09/basic_data_files_documentation_august_2024.pdf)
 
 All curation transformations are documented in `docs/curation_log.md`.
 
