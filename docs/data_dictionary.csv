@@ -1,0 +1,144 @@
+field_name,category,data_type,description,source,present_in_files
+YEAR,SOURCE,int64,Calendar year in which the reported activities occurred. Source: TRI_REPORTING_FORM.REPORTING_YEAR,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv, YEAR_STATS.csv"
+TRIFID,SOURCE,object,Unique TRI facility identification number. Identifies a specific geographic location; does NOT change with ownership.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+FRS ID,SOURCE,float64,EPA Facility Registry Service unique ID. Enables cross-program data linkage.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+FACILITY NAME,SOURCE,object,Name of the reporting facility.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+STREET ADDRESS,SOURCE,object,Street address of the reporting facility.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+CITY,SOURCE,object,City of the reporting facility.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+COUNTY,SOURCE,object,County of the reporting facility.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+ST,SOURCE,object,Two-letter state code (always IL for this dataset).,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+ZIP,SOURCE,int64,ZIP code of the reporting facility.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+BIA,SOURCE,float64,Bureau of Indian Affairs code. 100% empty in Illinois non-tribal data — retained for schema compliance.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+TRIBE,SOURCE,float64,Tribe name on whose land the facility is located. 100% empty in Illinois non-tribal data.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+LATITUDE,SOURCE,float64,Facility latitude from EPA Facility Registry System. Note: EPA stopped collecting directly in RY 2005; now sourced from FRS.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+LONGITUDE,SOURCE,float64,Facility longitude from EPA Facility Registry System.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+HORIZONTAL DATUM,SOURCE,float64,Horizontal datum for lat/lon. Empty for most IL records after RY 2005 transition to FRS coordinates.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+PARENT CO NAME,SOURCE,object,Name of parent company controlling the reporting facility.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+PARENT CO DB NUM,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+STANDARD PARENT CO NAME,SOURCE,object,EPA-standardised current ultimate U.S. parent company name.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+FOREIGN PARENT CO NAME,SOURCE,object,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+FOREIGN PARENT CO DB NUM,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+STANDARD FOREIGN PARENT CO NAME,SOURCE,object,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+FEDERAL FACILITY,SOURCE,object,"Flag: YES = federal facility, NO = non-federal.",EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+INDUSTRY SECTOR CODE,SOURCE,int64,NAICS-based sector code used for TRI industry classification and trend analysis.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+INDUSTRY SECTOR,SOURCE,object,"Industry sector label (e.g., Primary Metals, Chemicals, Food). Used for sector-level aggregations.",EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, INDUSTRY_TIME_SERIES.csv"
+PRIMARY SIC,SOURCE,float64,Primary 4-digit SIC code. Reported 1987–2005 only. Empty for 2010–2024 data.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SIC 2,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SIC 3,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SIC 4,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SIC 5,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SIC 6,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+PRIMARY NAICS,SOURCE,int64,Primary 6-digit NAICS code. Represents the main business activity at the facility.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+NAICS 2,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+NAICS 3,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+NAICS 4,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+NAICS 5,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+NAICS 6,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+DOC_CTRL_NUM,SOURCE,int64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+CHEMICAL,SOURCE,object,Name of the reported chemical. May be a generic name if trade secret is claimed.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+ELEMENTAL METAL INCLUDED,SOURCE,object,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+TRI CHEMICAL/COMPOUND ID,SOURCE,object,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+CAS#,SOURCE,object,Chemical Abstracts Service identifier. CAS 9999999999 indicates a sanitised trade-secret submission.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+SRS ID,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+CLEAN AIR ACT CHEMICAL,SOURCE,object,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+CLASSIFICATION,SOURCE,object,"Chemical classification: TRI (general EPCRA 313), PBT (persistent bioaccumulative toxic), or DIOXIN.",EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+METAL,SOURCE,object,YES if the chemical is a metal with TRI reporting restrictions.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+METAL CATEGORY,SOURCE,object,Metal category 1–4 per EPA classification. Determines how transfers are treated (disposal vs. treatment).,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+CARCINOGEN,SOURCE,object,YES if chemical is classified as a carcinogen by OSHA.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+PBT,SOURCE,object,"YES if chemical is a persistent, bioaccumulative, and toxic (PBT) substance.",EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+PFAS,SOURCE,object,YES if chemical is a per- and polyfluoroalkyl substance. PFAS first added to TRI in RY 2020.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+FORM TYPE,SOURCE,object,R = Full Form R (detailed quantities required). A = Form A Certification (no quantities — all release fields are zero by design).,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+UNIT OF MEASURE,SOURCE,object,"Pounds for all chemicals except dioxin/dioxin-like compounds, which are reported in grams.",EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.1 - FUGITIVE AIR,SOURCE,float64,Estimated fugitive (non-stack) air emissions in pounds.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.2 - STACK AIR,SOURCE,float64,Estimated stack (point source) air emissions in pounds.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.3 - WATER,SOURCE,float64,Estimated surface water discharge in pounds.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.4 - UNDERGROUND,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.4.1 - UNDERGROUND CL I,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.4.2 - UNDERGROUND C II-V,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.1 - LANDFILLS,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.1A - RCRA C LANDFILL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.1B - OTHER LANDFILLS,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.2 - LAND TREATMENT,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.3 - SURFACE IMPNDMNT,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.3A - RCRA SURFACE IM,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.3B - OTHER SURFACE I,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+5.5.4 - OTHER DISPOSAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+ON_SITE_RELEASE_TOTAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+6.1 - POTW - TRNS RLSE,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.1 - POTW - TRNS TRT,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+POTW - TOTAL TRANSFERS,SOURCE,float64,Total chemical quantity transferred to a Publicly Owned Treatment Work (POTW). Note: method for calculating POTW release vs. treatment changed in RY 2014.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M10,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M41,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M62,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M40 METAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M61 METAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M71,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M81,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M82,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M72,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M63,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M66,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M67,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M64,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M65,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M73,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M79,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M90,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M94,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M99,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+OFF_SITE_RELEASE_TOTAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+6.2 - M20,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M24,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M26,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M28,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M93,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+OFF-SITE RECYCLED TOTAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M56,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M92,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+OFF-SITE ENERGY RECOVERY T,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M40 NON-METAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M50,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M54,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M61 NON-METAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M69,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - M95,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+OFF-SITE TREATED TOTAL,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+6.2 - UNCLASSIFIED,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+6.2 - TOTAL TRANSFER,SOURCE,float64,"Total quantity transferred off-site across all disposal, recycling, energy recovery, and treatment codes.",EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+TOTAL_RELEASES,SOURCE,float64,Total on- and off-site releases. Equals ON-SITE RELEASE TOTAL + OFF-SITE RELEASE TOTAL. This is the primary release metric.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+8.1 - RELEASES,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.1A - ON-SITE CONTAINED,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.1B - ON-SITE OTHER,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.1C - OFF-SITE CONTAIN,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.1D - OFF-SITE OTHER R,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.2 - ENERGY RECOVER ON,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.3 - ENERGY RECOVER OF,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.4 - RECYCLING ON SITE,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.5 - RECYCLING OFF SIT,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.6 - TREATMENT ON SITE,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.7 - TREATMENT OFF SITE,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+PRODUCTION WSTE (8.1-8.7),SOURCE,float64,Total production-related waste containing this chemical. Sum of Form R Sections 8.1–8.7.,EPA TRI Basic Data Files,"CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+8.8 - ONE-TIME RELEASE,SOURCE,float64,See EPA TRI Basic Data Files Documentation for field details.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+PROD_RATIO_OR_ ACTIVITY,SOURCE,float64,Indicates whether Section 8.9 value is a production ratio or an activity index.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+8.9 - PRODUCTION RATIO,SOURCE,float64,Ratio of current-year production to prior-year production. Used to contextualise release changes.,EPA TRI Basic Data Files,CLEANED_RECORDS.csv
+FLAG_MISSING_RELEASE,CURATION,bool,Curation flag: TRUE if TOTAL_RELEASES is null/missing. In this dataset: 0 records (strong completeness).,Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+FLAG_ZERO_RELEASE,CURATION,bool,Curation flag: TRUE if TOTAL_RELEASES == 0. Does NOT imply absence of chemical activity — see ZERO VALUE SEMANTICS in README.,Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+FLAG_FORM_A,CURATION,bool,Curation flag: TRUE if FORM TYPE == 'A'. All release quantities for Form A records are zero by regulatory design.,Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+FLAG_SUDDEN_CHANGE,CURATION,bool,"Curation flag: TRUE if year-over-year % change in TOTAL_RELEASES > 100% for a given facility-chemical pair. May reflect genuine events, reporting corrections, or facility changes.",Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+AIR_RELEASE_TOTAL,CURATION,float64,Derived: sum of 5.1 (fugitive air) and 5.2 (stack air) releases. Convenience field for air-pathway analysis.,Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+WATER_RELEASE_TOTAL,CURATION,float64,Derived: alias of 5.3 - WATER. Added for naming consistency with AIR_RELEASE_TOTAL.,Derived during curation,"CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+N_CHEMICALS_REPORTED,DERIVED,int64,Derived (FACILITY_TIME_SERIES): count of distinct chemical reports submitted by this facility in this year.,Computed in aggregation step,FACILITY_TIME_SERIES.csv
+N_UNIQUE_FACILITIES,DERIVED,int64,Derived (INDUSTRY/YEAR_STATS): count of distinct TRIFID values in this group.,Computed in aggregation step,"INDUSTRY_TIME_SERIES.csv, YEAR_STATS.csv"
+N_UNIQUE_CHEMICALS,DERIVED,int64,Derived (INDUSTRY/YEAR_STATS): count of distinct chemical names in this group.,Computed in aggregation step,"INDUSTRY_TIME_SERIES.csv, YEAR_STATS.csv"
+N_CHEMICAL_REPORTS,DERIVED,int64,Derived (INDUSTRY_TIME_SERIES): total chemical report rows for this sector-year.,Computed in aggregation step,INDUSTRY_TIME_SERIES.csv
+RANK,DERIVED,int64,Derived (CHEMICAL_SUMMARY): rank by TOTAL_RELEASES descending.,Computed in aggregation step,CHEMICAL_SUMMARY.csv
+N_FACILITIES,DERIVED,int64,Derived (CHEMICAL_SUMMARY): number of distinct facilities that reported this chemical.,Computed in aggregation step,CHEMICAL_SUMMARY.csv
+N_YEARS_REPORTED,DERIVED,int64,Derived (CHEMICAL_SUMMARY): number of distinct years this chemical appeared in the dataset.,Computed in aggregation step,CHEMICAL_SUMMARY.csv
+N_REPORTING_FACILITIES,DERIVED,int64,Derived (CHEMICAL_YEAR_TIME_SERIES): count of distinct facilities reporting this chemical in this year.,Computed in aggregation step,CHEMICAL_YEAR_TIME_SERIES.csv
+PRODUCTION_NORMALISED_RELEASE,DERIVED,float64,Derived (CHEMICAL_YEAR_TIME_SERIES): TOTAL_RELEASES / PRODUCTION WSTE (8.1-8.7). Only valid where production waste > 0; NaN otherwise.,Computed in aggregation step,CHEMICAL_YEAR_TIME_SERIES.csv
+N_RECORDS,DERIVED,int64,Derived (YEAR_STATS): total facility-chemical records in this reporting year.,Computed in aggregation step,YEAR_STATS.csv
+TOTAL_RELEASE_SUM_LBS,DERIVED,float64,Derived (YEAR_STATS): sum of TOTAL_RELEASES across all records in this year (pounds).,Computed in aggregation step,YEAR_STATS.csv
+MEAN_RELEASE_LBS,DERIVED,float64,Derived (YEAR_STATS): mean TOTAL_RELEASES per record in this year.,Computed in aggregation step,YEAR_STATS.csv
+MEDIAN_RELEASE_LBS,DERIVED,float64,Derived (YEAR_STATS): median TOTAL_RELEASES per record in this year.,Computed in aggregation step,YEAR_STATS.csv
+N_FORM_A,DERIVED,int64,Derived (YEAR_STATS): count of Form A submissions in this year.,Computed in aggregation step,YEAR_STATS.csv
+N_ZERO_RELEASE,DERIVED,int64,Derived (YEAR_STATS): count of records with TOTAL_RELEASES == 0 in this year.,Computed in aggregation step,YEAR_STATS.csv

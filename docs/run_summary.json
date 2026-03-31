@@ -1,0 +1,24 @@
+{
+  "run_timestamp": "2026-03-30T21:28:52.841452",
+  "total_rows": 58317,
+  "total_columns": 122,
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "files_loaded": 15,
+  "base_dataset": "outputs/BASE_COMBINED.csv"
+}

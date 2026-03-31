@@ -1,0 +1,12 @@
+{
+  "script": "03_structuring_aggregation.py",
+  "run_timestamp": "2026-03-30T21:29:09.138875",
+  "input_file": "CLEANED_RECORDS.csv",
+  "outputs": {
+    "FACILITY_TIME_SERIES.csv": "15,695 rows",
+    "INDUSTRY_TIME_SERIES.csv": "401 rows",
+    "CHEMICAL_SUMMARY.csv": "334 chemicals",
+    "CHEMICAL_YEAR_TIME_SERIES.csv": "3,527 rows",
+    "YEAR_STATS.csv": "15 years"
+  }
+}

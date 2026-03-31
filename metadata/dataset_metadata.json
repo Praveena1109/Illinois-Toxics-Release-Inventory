@@ -1,0 +1,126 @@
+{
+  "$schema": "",
+  "name": "Illinois Toxics Release Inventory (TRI) — Curated Dataset 2010–2024",
+  "identifier": "illinois-tri-curation-2010-2024",
+  "description": "A curated, reproducible dataset derived from U.S. EPA Toxics Release Inventory (TRI) Basic Data Files for the state of Illinois, covering reporting years 2010 through 2024. The dataset integrates 15 annual CSV files into a unified resource with systematic quality assessment, curation flags, and multiple structured derivative outputs.",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-01",
+  "dateModified": "2026-03-31",
+  "creator": {
+    "@type": "Person",
+    "name": "Praveena",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Illinois at Urbana-Champaign",
+      "department": "School of Information Sciences"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "University of Illinois at Urbana-Champaign"
+  },
+  "license": "",
+  "isBasedOn": {
+    "@type": "Dataset",
+    "name": "Toxics Release Inventory (TRI) Basic Data Files",
+    "publisher": "U.S. Environmental Protection Agency (EPA)",
+    "url": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Illinois, United States",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "-91.51 36.97 -87.01 42.51"
+    }
+  },
+  "temporalCoverage": "2010/2024",
+  "keywords": [
+    "Toxics Release Inventory", "TRI", "Illinois", "toxic chemical releases",
+    "environmental data", "EPCRA", "air emissions", "water discharges"
+  ],
+  "measurementTechnique": "Annual self-reported regulatory data submitted by industrial facilities under EPCRA Section 313 using EPA Form R or Form A Certification Statement",
+  "variableMeasured": [
+    "Total on-site and off-site chemical releases (pounds)",
+    "Fugitive and stack air emissions",
+    "Surface water discharges",
+    "Off-site transfers for disposal, recycling, energy recovery, and treatment",
+    "Production-related waste quantities"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "CLEANED_RECORDS.csv",
+      "description": "Flagged, cleaned record-level dataset. Unit: facility x chemical x year.",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "FACILITY_TIME_SERIES.csv",
+      "description": "Annual aggregated totals per facility.",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "INDUSTRY_TIME_SERIES.csv",
+      "description": "Annual aggregated totals by NAICS industry sector.",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "CHEMICAL_SUMMARY.csv",
+      "description": "All-years chemical release totals ranked by total release volume.",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "CHEMICAL_YEAR_TIME_SERIES.csv",
+      "description": "Release trends per chemical per year with chemical metadata.",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "YEAR_STATS.csv",
+      "description": "Dataset-level annual statistics.",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "recordCount": 58317,
+  "columnCount": 122,
+  "uniqueFacilities": 1533,
+  "uniqueChemicals": 334,
+  "yearsIncluded": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "sourceFiles": 15,
+  "curationActivities": [
+    "Schema harmonisation across 15 annual files",
+    "Numeric prefix stripping from column names",
+    "TRIFD/TRIFID naming inconsistency resolution",
+    "Numeric type coercion for quantity fields",
+    "Zero-value semantic analysis and flagging",
+    "Form A identification and flagging",
+    "Year-over-year change anomaly detection",
+    "Pathway aggregation (AIR_RELEASE_TOTAL, WATER_RELEASE_TOTAL)",
+    "Five derivative dataset construction",
+    "Data dictionary generation",
+    "Curation log"
+  ],
+  "qualityFlags": [
+    "FLAG_MISSING_RELEASE",
+    "FLAG_ZERO_RELEASE",
+    "FLAG_FORM_A",
+    "FLAG_SUDDEN_CHANGE"
+  ],
+  "knownLimitations": [
+    "PFAS data available from RY 2020 only",
+    "POTW calculation methodology changed in RY 2014",
+    "Releases are facility-estimated, not directly measured",
+    "Only above-threshold facilities report; does not capture all statewide emissions",
+    "Some chemical identities sanitised as trade secrets"
+  ],
+  "fairAlignment": {
+    "findable": "Structured metadata, consistent naming conventions, hierarchical key-value outputs",
+    "accessible": "Open CSV formats, publicly downloadable source data, GitHub-hosted pipeline",
+    "interoperable": "Standardised EPA TRI schema, NAICS classification system, CAS numbers",
+    "reusable": "Full data dictionary, curation log, reproducible pipeline"
+  }
+}

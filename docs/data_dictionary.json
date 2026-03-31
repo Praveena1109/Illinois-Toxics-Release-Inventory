@@ -1,0 +1,1151 @@
+{
+  "dataset": "Illinois TRI Curated Dataset 2010\u20132024",
+  "generated": "2026-03-30T21:29:16.529396",
+  "total_fields": 143,
+  "fields": [
+    {
+      "field_name": "YEAR",
+      "category": "SOURCE",
+      "data_type": "int64",
+      "description": "Calendar year in which the reported activities occurred. Source: TRI_REPORTING_FORM.REPORTING_YEAR",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv, YEAR_STATS.csv"
+    },
+    {
+      "field_name": "TRIFID",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Unique TRI facility identification number. Identifies a specific geographic location; does NOT change with ownership.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "FRS ID",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "EPA Facility Registry Service unique ID. Enables cross-program data linkage.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "FACILITY NAME",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Name of the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "STREET ADDRESS",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Street address of the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "CITY",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "City of the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "COUNTY",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "County of the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "ST",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Two-letter state code (always IL for this dataset).",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "ZIP",
+      "category": "SOURCE",
+      "data_type": "int64",
+      "description": "ZIP code of the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "BIA",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Bureau of Indian Affairs code. 100% empty in Illinois non-tribal data \u2014 retained for schema compliance.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "TRIBE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Tribe name on whose land the facility is located. 100% empty in Illinois non-tribal data.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "LATITUDE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Facility latitude from EPA Facility Registry System. Note: EPA stopped collecting directly in RY 2005; now sourced from FRS.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "LONGITUDE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Facility longitude from EPA Facility Registry System.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "HORIZONTAL DATUM",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Horizontal datum for lat/lon. Empty for most IL records after RY 2005 transition to FRS coordinates.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "PARENT CO NAME",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Name of parent company controlling the reporting facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "PARENT CO DB NUM",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "STANDARD PARENT CO NAME",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "EPA-standardised current ultimate U.S. parent company name.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "FOREIGN PARENT CO NAME",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "FOREIGN PARENT CO DB NUM",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "STANDARD FOREIGN PARENT CO NAME",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "FEDERAL FACILITY",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Flag: YES = federal facility, NO = non-federal.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "INDUSTRY SECTOR CODE",
+      "category": "SOURCE",
+      "data_type": "int64",
+      "description": "NAICS-based sector code used for TRI industry classification and trend analysis.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "INDUSTRY SECTOR",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Industry sector label (e.g., Primary Metals, Chemicals, Food). Used for sector-level aggregations.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, INDUSTRY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "PRIMARY SIC",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Primary 4-digit SIC code. Reported 1987\u20132005 only. Empty for 2010\u20132024 data.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SIC 2",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SIC 3",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SIC 4",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SIC 5",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SIC 6",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "PRIMARY NAICS",
+      "category": "SOURCE",
+      "data_type": "int64",
+      "description": "Primary 6-digit NAICS code. Represents the main business activity at the facility.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "NAICS 2",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "NAICS 3",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "NAICS 4",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "NAICS 5",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "NAICS 6",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "DOC_CTRL_NUM",
+      "category": "SOURCE",
+      "data_type": "int64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "CHEMICAL",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Name of the reported chemical. May be a generic name if trade secret is claimed.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "ELEMENTAL METAL INCLUDED",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "TRI CHEMICAL/COMPOUND ID",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "CAS#",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Chemical Abstracts Service identifier. CAS 9999999999 indicates a sanitised trade-secret submission.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "SRS ID",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "CLEAN AIR ACT CHEMICAL",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "CLASSIFICATION",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Chemical classification: TRI (general EPCRA 313), PBT (persistent bioaccumulative toxic), or DIOXIN.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "METAL",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "YES if the chemical is a metal with TRI reporting restrictions.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "METAL CATEGORY",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Metal category 1\u20134 per EPA classification. Determines how transfers are treated (disposal vs. treatment).",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "CARCINOGEN",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "YES if chemical is classified as a carcinogen by OSHA.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "PBT",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "YES if chemical is a persistent, bioaccumulative, and toxic (PBT) substance.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "PFAS",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "YES if chemical is a per- and polyfluoroalkyl substance. PFAS first added to TRI in RY 2020.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "FORM TYPE",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "R = Full Form R (detailed quantities required). A = Form A Certification (no quantities \u2014 all release fields are zero by design).",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "UNIT OF MEASURE",
+      "category": "SOURCE",
+      "data_type": "object",
+      "description": "Pounds for all chemicals except dioxin/dioxin-like compounds, which are reported in grams.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.1 - FUGITIVE AIR",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Estimated fugitive (non-stack) air emissions in pounds.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.2 - STACK AIR",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Estimated stack (point source) air emissions in pounds.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.3 - WATER",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Estimated surface water discharge in pounds.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.4 - UNDERGROUND",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.4.1 - UNDERGROUND CL I",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.4.2 - UNDERGROUND C II-V",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.1 - LANDFILLS",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.1A - RCRA C LANDFILL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.1B - OTHER LANDFILLS",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.2 - LAND TREATMENT",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.3 - SURFACE IMPNDMNT",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.3A - RCRA SURFACE IM",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.3B - OTHER SURFACE I",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "5.5.4 - OTHER DISPOSAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "ON_SITE_RELEASE_TOTAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "6.1 - POTW - TRNS RLSE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.1 - POTW - TRNS TRT",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "POTW - TOTAL TRANSFERS",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Total chemical quantity transferred to a Publicly Owned Treatment Work (POTW). Note: method for calculating POTW release vs. treatment changed in RY 2014.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M10",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M41",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M62",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M40 METAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M61 METAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M71",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M81",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M82",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M72",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M63",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M66",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M67",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M64",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M65",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M73",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M79",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M90",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M94",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M99",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "OFF_SITE_RELEASE_TOTAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "6.2 - M20",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M24",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M26",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M28",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M93",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "OFF-SITE RECYCLED TOTAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M56",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M92",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "OFF-SITE ENERGY RECOVERY T",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M40 NON-METAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M50",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M54",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M61 NON-METAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M69",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - M95",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "OFF-SITE TREATED TOTAL",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "6.2 - UNCLASSIFIED",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "6.2 - TOTAL TRANSFER",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Total quantity transferred off-site across all disposal, recycling, energy recovery, and treatment codes.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "TOTAL_RELEASES",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Total on- and off-site releases. Equals ON-SITE RELEASE TOTAL + OFF-SITE RELEASE TOTAL. This is the primary release metric.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_SUMMARY.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "8.1 - RELEASES",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.1A - ON-SITE CONTAINED",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.1B - ON-SITE OTHER",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.1C - OFF-SITE CONTAIN",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.1D - OFF-SITE OTHER R",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.2 - ENERGY RECOVER ON",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.3 - ENERGY RECOVER OF",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.4 - RECYCLING ON SITE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.5 - RECYCLING OFF SIT",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.6 - TREATMENT ON SITE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.7 - TREATMENT OFF SITE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "PRODUCTION WSTE (8.1-8.7)",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Total production-related waste containing this chemical. Sum of Form R Sections 8.1\u20138.7.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "8.8 - ONE-TIME RELEASE",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "See EPA TRI Basic Data Files Documentation for field details.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "PROD_RATIO_OR_ ACTIVITY",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Indicates whether Section 8.9 value is a production ratio or an activity index.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "8.9 - PRODUCTION RATIO",
+      "category": "SOURCE",
+      "data_type": "float64",
+      "description": "Ratio of current-year production to prior-year production. Used to contextualise release changes.",
+      "source": "EPA TRI Basic Data Files",
+      "present_in_files": "CLEANED_RECORDS.csv"
+    },
+    {
+      "field_name": "FLAG_MISSING_RELEASE",
+      "category": "CURATION",
+      "data_type": "bool",
+      "description": "Curation flag: TRUE if TOTAL_RELEASES is null/missing. In this dataset: 0 records (strong completeness).",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "FLAG_ZERO_RELEASE",
+      "category": "CURATION",
+      "data_type": "bool",
+      "description": "Curation flag: TRUE if TOTAL_RELEASES == 0. Does NOT imply absence of chemical activity \u2014 see ZERO VALUE SEMANTICS in README.",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "FLAG_FORM_A",
+      "category": "CURATION",
+      "data_type": "bool",
+      "description": "Curation flag: TRUE if FORM TYPE == 'A'. All release quantities for Form A records are zero by regulatory design.",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "FLAG_SUDDEN_CHANGE",
+      "category": "CURATION",
+      "data_type": "bool",
+      "description": "Curation flag: TRUE if year-over-year % change in TOTAL_RELEASES > 100% for a given facility-chemical pair. May reflect genuine events, reporting corrections, or facility changes.",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "AIR_RELEASE_TOTAL",
+      "category": "CURATION",
+      "data_type": "float64",
+      "description": "Derived: sum of 5.1 (fugitive air) and 5.2 (stack air) releases. Convenience field for air-pathway analysis.",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "WATER_RELEASE_TOTAL",
+      "category": "CURATION",
+      "data_type": "float64",
+      "description": "Derived: alias of 5.3 - WATER. Added for naming consistency with AIR_RELEASE_TOTAL.",
+      "source": "Derived during curation",
+      "present_in_files": "CLEANED_RECORDS.csv, FACILITY_TIME_SERIES.csv, INDUSTRY_TIME_SERIES.csv, CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "N_CHEMICALS_REPORTED",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (FACILITY_TIME_SERIES): count of distinct chemical reports submitted by this facility in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "FACILITY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "N_UNIQUE_FACILITIES",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (INDUSTRY/YEAR_STATS): count of distinct TRIFID values in this group.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "INDUSTRY_TIME_SERIES.csv, YEAR_STATS.csv"
+    },
+    {
+      "field_name": "N_UNIQUE_CHEMICALS",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (INDUSTRY/YEAR_STATS): count of distinct chemical names in this group.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "INDUSTRY_TIME_SERIES.csv, YEAR_STATS.csv"
+    },
+    {
+      "field_name": "N_CHEMICAL_REPORTS",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (INDUSTRY_TIME_SERIES): total chemical report rows for this sector-year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "INDUSTRY_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "RANK",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (CHEMICAL_SUMMARY): rank by TOTAL_RELEASES descending.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "CHEMICAL_SUMMARY.csv"
+    },
+    {
+      "field_name": "N_FACILITIES",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (CHEMICAL_SUMMARY): number of distinct facilities that reported this chemical.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "CHEMICAL_SUMMARY.csv"
+    },
+    {
+      "field_name": "N_YEARS_REPORTED",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (CHEMICAL_SUMMARY): number of distinct years this chemical appeared in the dataset.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "CHEMICAL_SUMMARY.csv"
+    },
+    {
+      "field_name": "N_REPORTING_FACILITIES",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (CHEMICAL_YEAR_TIME_SERIES): count of distinct facilities reporting this chemical in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "PRODUCTION_NORMALISED_RELEASE",
+      "category": "DERIVED",
+      "data_type": "float64",
+      "description": "Derived (CHEMICAL_YEAR_TIME_SERIES): TOTAL_RELEASES / PRODUCTION WSTE (8.1-8.7). Only valid where production waste > 0; NaN otherwise.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "CHEMICAL_YEAR_TIME_SERIES.csv"
+    },
+    {
+      "field_name": "N_RECORDS",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (YEAR_STATS): total facility-chemical records in this reporting year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    },
+    {
+      "field_name": "TOTAL_RELEASE_SUM_LBS",
+      "category": "DERIVED",
+      "data_type": "float64",
+      "description": "Derived (YEAR_STATS): sum of TOTAL_RELEASES across all records in this year (pounds).",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    },
+    {
+      "field_name": "MEAN_RELEASE_LBS",
+      "category": "DERIVED",
+      "data_type": "float64",
+      "description": "Derived (YEAR_STATS): mean TOTAL_RELEASES per record in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    },
+    {
+      "field_name": "MEDIAN_RELEASE_LBS",
+      "category": "DERIVED",
+      "data_type": "float64",
+      "description": "Derived (YEAR_STATS): median TOTAL_RELEASES per record in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    },
+    {
+      "field_name": "N_FORM_A",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (YEAR_STATS): count of Form A submissions in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    },
+    {
+      "field_name": "N_ZERO_RELEASE",
+      "category": "DERIVED",
+      "data_type": "int64",
+      "description": "Derived (YEAR_STATS): count of records with TOTAL_RELEASES == 0 in this year.",
+      "source": "Computed in aggregation step",
+      "present_in_files": "YEAR_STATS.csv"
+    }
+  ]
+}

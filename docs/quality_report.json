@@ -1,0 +1,54 @@
+{
+  "run_timestamp": "2026-03-30T21:29:05.359219",
+  "total_records": 58317,
+  "unique_facilities": 1533,
+  "unique_chemicals": 334,
+  "years_covered": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "fully_empty_fields": [
+    "BIA",
+    "TRIBE",
+    "SIC 2",
+    "SIC 3",
+    "HORIZONTAL DATUM",
+    "PRIMARY SIC",
+    "SIC 5",
+    "SIC 6",
+    "SIC 4",
+    "PROD_RATIO_OR_ ACTIVITY"
+  ],
+  "high_missing_fields": [
+    "NAICS 6",
+    "NAICS 5",
+    "NAICS 4",
+    "NAICS 3",
+    "8.8 - ONE-TIME RELEASE",
+    "FOREIGN PARENT CO DB NUM",
+    "NAICS 2",
+    "FOREIGN PARENT CO NAME",
+    "STANDARD FOREIGN PARENT CO NAME"
+  ],
+  "flags_applied": [
+    "FLAG_MISSING_RELEASE",
+    "FLAG_ZERO_RELEASE",
+    "FLAG_FORM_A",
+    "FLAG_SUDDEN_CHANGE"
+  ],
+  "zero_release_count": 12578,
+  "form_a_count": 6411
+}

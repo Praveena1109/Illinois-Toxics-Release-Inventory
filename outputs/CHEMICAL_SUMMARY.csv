@@ -1,0 +1,335 @@
+RANK,CHEMICAL,TOTAL_RELEASES,N_FACILITIES,N_YEARS_REPORTED,CARCINOGEN,PBT,PFAS,CLASSIFICATION
+1,Zinc compounds,324874442.513,256,15,NO,NO,NO,TRI
+2,Barium compounds (except for barium sulfate (CAS No. 7727-43-7)),146326783.325,68,15,NO,NO,NO,TRI
+3,Nitrate compounds (water dissociable; reportable only when in aqueous solution),119407442.738,175,15,NO,NO,NO,TRI
+4,Manganese compounds,81102538.715,119,15,NO,NO,NO,TRI
+5,n-Hexane,67924034.984,87,15,NO,NO,NO,TRI
+6,Asbestos (friable),63951835.0,3,10,YES,NO,NO,TRI
+7,Carbon disulfide,47570707.995,10,15,NO,NO,NO,TRI
+8,Ammonia,46133698.199,176,15,NO,NO,NO,TRI
+9,Copper,44291496.474,247,15,NO,NO,NO,TRI
+10,"Sulfuric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",34937023.557,49,15,NO,NO,NO,TRI
+11,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",28395269.127,65,15,NO,NO,NO,TRI
+12,Manganese  And Manganese Compounds,23588052.574,50,7,NO,NO,NO,TRI
+13,Methanol,22621259.712,139,15,NO,NO,NO,TRI
+14,Vanadium compounds,21226075.037,33,15,NO,NO,NO,TRI
+15,Chromium compounds (except for chromite ore mined in the Transvaal Region),20987541.916,127,15,NO,NO,NO,TRI
+16,Certain glycol ethers,16807062.777,202,15,NO,NO,NO,TRI
+17,Lead compounds,16339972.929,245,15,NO,YES,NO,PBT
+18,Toluene,14027118.671,174,15,NO,NO,NO,TRI
+19,Copper compounds,12742514.488,132,15,NO,NO,NO,TRI
+20,Manganese,12546764.57,250,15,NO,NO,NO,TRI
+21,Hydrogen fluoride,10889925.233,52,15,NO,NO,NO,TRI
+22,Ethylene,10595493.916,13,15,NO,NO,NO,TRI
+23,Nickel compounds,9846800.603,106,15,YES,NO,NO,TRI
+24,Lead,9251944.781,414,15,YES,YES,NO,PBT
+25,n-Butyl alcohol,9129415.061,75,15,NO,NO,NO,TRI
+26,Barium  And Barium Compounds,8635691.569,19,7,NO,NO,NO,TRI
+27,Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region),8350225.842,54,7,NO,NO,NO,TRI
+28,Xylene (mixed isomers),8178992.139,159,15,NO,NO,NO,TRI
+29,Aluminum (fume or dust),7754065.409,26,15,NO,NO,NO,TRI
+30,Styrene,7608082.568,60,15,YES,NO,NO,TRI
+31,Acetaldehyde,6452363.942,23,15,YES,NO,NO,TRI
+32,Zinc (fume or dust),6031223.4350000005,33,15,NO,NO,NO,TRI
+33,Phenol,4646429.751,33,15,NO,NO,NO,TRI
+34,Chromium,4392335.383,257,15,NO,NO,NO,TRI
+35,Copper  And Copper Compounds,4359378.689,64,7,NO,NO,NO,TRI
+36,Lead  And Lead Compounds,4084097.075,146,7,NO,YES,NO,PBT
+37,Nickel  And Nickel Compounds,4013533.4850000003,52,7,YES,NO,NO,TRI
+38,"1,2,4-Trimethylbenzene",3915814.832,109,15,NO,NO,NO,TRI
+39,Nitric acid,3731034.235,124,15,NO,NO,NO,TRI
+40,Aluminum oxide (fibrous forms),3146223.33,12,15,NO,NO,NO,TRI
+41,Hydrogen sulfide,2730055.241,22,13,NO,NO,NO,TRI
+42,Ethylene glycol,2434394.0609999998,135,15,NO,NO,NO,TRI
+43,Maleic anhydride,2361088.585,15,15,NO,NO,NO,TRI
+44,Propylene,2121160.532,24,15,NO,NO,NO,TRI
+45,Phthalic anhydride,2036888.24,11,15,NO,NO,NO,TRI
+46,Formaldehyde,1867688.252,48,15,YES,NO,NO,TRI
+47,Nickel,1860739.095,266,15,YES,NO,NO,TRI
+48,Methyl isobutyl ketone,1752886.459,58,15,YES,NO,NO,TRI
+49,Naphthalene,1730445.98,89,15,YES,NO,NO,TRI
+50,Benzene,1724190.292,51,15,YES,NO,NO,TRI
+51,1-Bromopropane,1692283.412,15,9,YES,NO,NO,TRI
+52,Trichloroethylene,1521981.62,35,15,YES,NO,NO,TRI
+53,Ethylbenzene,1497979.883,102,15,YES,NO,NO,TRI
+54,Dichloromethane,1477824.769,23,15,YES,NO,NO,TRI
+55,Barium,1472690.239,7,14,NO,NO,NO,TRI
+56,Sodium nitrite,1451817.227,56,15,NO,NO,NO,TRI
+57,Cyclohexane,1402829.33,42,15,NO,NO,NO,TRI
+58,Cobalt compounds,1358227.79,33,15,YES,NO,NO,TRI
+59,sec-Butyl alcohol,1070127.848,21,15,NO,NO,NO,TRI
+60,Vinyl acetate,971782.4180000001,19,15,YES,NO,NO,TRI
+61,Chlorodifluoromethane (HCFC-22),920729.45,8,15,NO,NO,NO,TRI
+62,Molybdenum trioxide,884263.74,10,15,YES,NO,NO,TRI
+63,Arsenic compounds,855527.286,11,15,YES,NO,NO,TRI
+64,"1,3-Butadiene",833210.01,8,15,YES,NO,NO,TRI
+65,Sulfuryl fluoride,823475.7,5,15,NO,NO,NO,TRI
+66,Cadmium compounds,768496.899,14,15,YES,NO,NO,TRI
+67,Chloromethane,758453.633,4,15,NO,NO,NO,TRI
+68,Cumene,750864.55,41,15,YES,NO,NO,TRI
+69,Methyl methacrylate,724291.948,27,15,NO,NO,NO,TRI
+70,Diisocyanates,705380.13,85,15,NO,NO,NO,TRI
+71,Polycyclic aromatic compounds,590796.172,86,15,YES,YES,NO,PBT
+72,Cobalt  And Cobalt Compounds,565921.608,11,7,YES,NO,NO,TRI
+73,Chlorine,555837.582,28,15,NO,NO,NO,TRI
+74,Thallium compounds,526392.8,7,9,NO,NO,NO,TRI
+75,Acrylonitrile,510938.373,5,15,YES,NO,NO,TRI
+76,Acetonitrile,503978.742,6,15,NO,NO,NO,TRI
+77,Antimony compounds,484175.221,33,15,NO,NO,NO,TRI
+78,Selenium compounds,475173.044,12,15,NO,NO,NO,TRI
+79,m-Xylene,464017.33,7,15,NO,NO,NO,TRI
+80,Silver compounds,436861.21,5,13,NO,NO,NO,TRI
+81,Vanadium (except when contained in an alloy),412350.0,3,11,NO,NO,NO,TRI
+82,Carbonyl sulfide,404237.701,7,15,NO,NO,NO,TRI
+83,Beryllium compounds,395541.454,3,13,YES,NO,NO,TRI
+84,Vinyl chloride,296968.71,1,15,YES,NO,NO,TRI
+85,Cyanide compounds,276505.403,25,15,NO,NO,NO,TRI
+86,N-Methyl-2-pyrrolidone,273507.174,35,15,NO,NO,NO,TRI
+87,Tetrachloroethylene,271610.256,22,15,YES,NO,NO,TRI
+88,Selenium,249978.185,5,15,NO,NO,NO,TRI
+89,o-Xylene,246909.14,5,15,NO,NO,NO,TRI
+90,Acrolein,221068.407,13,15,YES,NO,NO,TRI
+91,"1,4-Dioxane",206948.93,4,15,YES,NO,NO,TRI
+92,Cadmium,193933.158,5,12,YES,NO,NO,TRI
+93,Methyl acrylate,182067.57,6,15,YES,NO,NO,TRI
+94,Bromomethane,175781.0,2,15,NO,NO,NO,TRI
+95,Acrylic acid,173440.47,16,15,NO,NO,NO,TRI
+96,Cadmium  And Cadmium Compounds,171383.432,5,7,YES,NO,NO,TRI
+97,Beryllium  And Beryllium Compounds,168143.21899999998,1,4,YES,NO,NO,TRI
+98,Silver And Silver Compounds,166638.294,5,7,NO,NO,NO,TRI
+99,Butyl acrylate,153547.76,15,15,NO,NO,NO,TRI
+100,Dimethylamine,151469.186,6,15,NO,NO,NO,TRI
+101,"1,2-Dichloroethane",147752.16,3,15,YES,NO,NO,TRI
+102,Trichlorofluoromethane (CFC-11),141760.95,2,15,NO,NO,NO,TRI
+103,Dichlorodifluoromethane (CFC-12),138764.31,3,15,NO,NO,NO,TRI
+104,Formic acid,135128.008,16,15,NO,NO,NO,TRI
+105,Acetophenone,128369.6,3,10,NO,NO,NO,TRI
+106,Creosote,127077.1,2,15,YES,NO,NO,TRI
+107,Nicotine and salts,125604.72,2,12,NO,NO,NO,TRI
+108,Arsenic,120245.27100000001,7,15,YES,NO,NO,TRI
+109,"4,4'-Isopropylidenediphenol",119220.04,15,15,NO,NO,NO,TRI
+110,Nonylphenol Ethoxylates,117610.796,31,6,NO,NO,NO,TRI
+111,Triethylamine,114230.042,14,15,NO,NO,NO,TRI
+112,Diethanolamine,101065.706,26,15,NO,NO,NO,TRI
+113,Phenanthrene,94834.61,6,15,NO,NO,NO,TRI
+114,Acrylamide,83461.789,8,15,YES,NO,NO,TRI
+115,Ethylene oxide,82634.086,7,15,YES,NO,NO,TRI
+116,Bromine,79704.0,1,7,NO,NO,NO,TRI
+117,Mercury compounds,76934.567,65,15,NO,YES,NO,PBT
+118,"2,2-Dichloro-1,1,1-trifluoroethane (HCFC-123)",76168.0,2,15,NO,NO,NO,TRI
+119,"1,2-Dichloroethylene",73884.05,3,9,NO,NO,NO,TRI
+120,Arsenic  And Arsenic Compounds,71992.84,3,4,YES,NO,NO,TRI
+121,"1-Chloro-1,1-difluoroethane (HCFC-142b)",70861.95,2,12,NO,NO,NO,TRI
+122,Propionaldehyde,69446.45,2,15,NO,NO,NO,TRI
+123,"Benzo[g,h,i]perylene",67894.474,55,15,NO,YES,NO,PBT
+124,Vinylidene chloride,61403.6,2,7,YES,NO,NO,TRI
+125,Propylene oxide,58677.95,8,15,YES,NO,NO,TRI
+126,Mercury,53731.678,47,15,NO,YES,NO,PBT
+127,Dichlorotetrafluoroethane (CFC-114),52963.95,2,13,NO,NO,NO,TRI
+128,Di(2-ethylhexyl) phthalate,52607.767,10,14,YES,NO,NO,TRI
+129,Dicyclopentadiene,52605.76,3,15,NO,NO,NO,TRI
+130,Anthracene,48946.68,3,15,NO,NO,NO,TRI
+131,2-Mercaptobenzothiazole,48719.68,9,15,YES,NO,NO,TRI
+132,Epichlorohydrin,48395.902,3,15,YES,NO,NO,TRI
+133,Fluorine,47413.82,2,15,NO,NO,NO,TRI
+134,Antimony  And Antimony Compounds,47060.78,9,7,NO,NO,NO,TRI
+135,Hydrogen cyanide,44544.75,4,15,NO,NO,NO,TRI
+136,Triglycidyl isocyanurate,43107.119999999995,4,2,NO,NO,NO,TRI
+137,"2-Chloro-1,1,1,2-tetrafluoroethane (HCFC-124)",42365.95,2,12,NO,NO,NO,TRI
+138,Cobalt,41612.593,32,15,YES,NO,NO,TRI
+139,Peracetic acid,38459.63,20,15,NO,NO,NO,TRI
+140,Selenium  And Selenium Compounds,36045.9,1,1,NO,NO,NO,TRI
+141,Ethyl acrylate,33413.71,9,15,YES,NO,NO,TRI
+142,Polychlorinated biphenyls,32848.06,6,15,YES,YES,NO,PBT
+143,Chloroethane,31682.0,2,14,NO,NO,NO,TRI
+144,Chlorine dioxide,31004.0,5,15,NO,NO,NO,TRI
+145,Dibenzofuran,30879.98,3,15,NO,NO,NO,TRI
+146,Benzyl chloride,29011.301,6,15,NO,NO,NO,TRI
+147,Thiram,28149.215,7,15,NO,NO,NO,TRI
+148,Biphenyl,26869.054,9,15,NO,NO,NO,TRI
+149,Thallium  And Thallium Compounds,26658.5,1,1,NO,NO,NO,TRI
+150,Cumene hydroperoxide,23735.24,5,15,NO,NO,NO,TRI
+151,"2,4-D",23428.97,3,15,YES,NO,NO,TRI
+152,tert-Butyl alcohol,21089.596,11,15,NO,NO,NO,TRI
+153,Chloroform,20955.71,4,15,YES,NO,NO,TRI
+154,Methyl tert-butyl ether,14888.253,9,15,NO,NO,NO,TRI
+155,Nonylphenol,14601.106,14,10,NO,NO,NO,TRI
+156,Mercury  And Mercury Compounds,14495.884,28,7,NO,YES,NO,PBT
+157,Thiourea,14494.0,3,3,YES,NO,NO,TRI
+158,"2,4-D 2-ethylhexyl ester",14343.93,2,15,YES,NO,NO,TRI
+159,Bromoxynil octanoate,13102.81,2,15,NO,NO,NO,TRI
+160,Diisononyl Phthalates (DINP),13005.0,5,1,NO,NO,NO,TRI
+161,Chloroacetic acid,12723.02,4,15,NO,NO,NO,TRI
+162,Piperonyl butoxide,12470.0,3,15,NO,NO,NO,TRI
+163,Dimethyl sulfate,11281.94,3,15,YES,NO,NO,TRI
+164,Catechol,10764.7,1,15,YES,NO,NO,TRI
+165,Silver,10274.0,2,15,NO,NO,NO,TRI
+166,Dibutyl phthalate,10127.573,12,15,NO,NO,NO,TRI
+167,Hydroquinone,9860.78,3,10,NO,NO,NO,TRI
+168,Cresol (mixed isomers),8997.65,6,15,NO,NO,NO,TRI
+169,Titanium tetrachloride,7950.26,1,2,NO,NO,NO,TRI
+170,Tetrabromobisphenol A,7405.7,6,15,NO,YES,NO,PBT
+171,Benzoyl peroxide,6261.84,4,15,NO,NO,NO,TRI
+172,2-Methoxyethanol,6013.43,2,12,NO,NO,NO,TRI
+173,Perfluoropropanoic acid (PFPrA),5814.0,1,1,NO,NO,YES,TRI
+174,Dimethylamine dicamba,5398.28,1,15,NO,NO,NO,TRI
+175,Phosphorus (yellow or white),5333.5,5,15,NO,NO,NO,TRI
+176,Methoxone,4666.19,1,15,YES,NO,NO,TRI
+177,Perfluorobutanoic acid,4267.0,1,2,NO,NO,YES,TRI
+178,Dimethyl phthalate,4013.0,3,4,NO,NO,NO,TRI
+179,3-Iodo-2-propynyl butylcarbamate,3773.4,7,15,NO,NO,NO,TRI
+180,Dicamba,3495.8109999999997,5,15,NO,NO,NO,TRI
+181,Diuron,3379.891,6,15,NO,NO,NO,TRI
+182,Toluene diisocyanate (mixed isomers),3178.65,5,15,YES,NO,NO,TRI
+183,"1,1,1-Trichloroethane",3046.0,4,6,NO,NO,NO,TRI
+184,Bifenthrin,2928.38,4,15,NO,NO,NO,TRI
+185,Thiophanate-methyl,2829.9,2,13,NO,NO,NO,TRI
+186,"1,2-Butylene oxide",2810.0,1,9,YES,NO,NO,TRI
+187,Quinoline,2021.8600000000001,1,15,YES,NO,NO,TRI
+188,Lactofen,1992.5699999999997,1,6,NO,NO,NO,TRI
+189,Diphenylamine,1880.22,6,12,NO,NO,NO,TRI
+190,"N,N-Dimethylformamide",1730.81,6,15,YES,NO,NO,TRI
+191,Antimony,1551.51,6,15,NO,NO,NO,TRI
+192,Dioxin and dioxin-like compounds,1204.269,39,15,YES,YES,NO,Dioxin
+193,Ozone,1200.0,1,15,NO,NO,NO,TRI
+194,p-Nitroaniline,1125.55,2,15,NO,NO,NO,TRI
+195,2-Phenylphenol,1072.11,4,13,NO,NO,NO,TRI
+196,Mixture,1064.9,13,11,NO,NO,NO,TRI
+197,Polychlorinated alkanes (C10-C13),1001.0,3,4,YES,NO,NO,TRI
+198,Aniline,970.0,2,13,YES,NO,NO,TRI
+199,"N,N-Dimethylaniline",953.0,1,15,NO,NO,NO,TRI
+200,"Toluene-2,4-diisocyanate",932.0,5,8,YES,NO,NO,TRI
+201,N-Methylolacrylamide,873.604,2,10,NO,NO,NO,TRI
+202,Freon 113 (CFC-113),734.0,2,12,NO,NO,NO,TRI
+203,N-Nitrosodimethylamine,585.0,2,2,YES,NO,NO,TRI
+204,Pyridine,554.23,1,15,YES,NO,NO,TRI
+205,Trichlorfon,519.0,2,5,NO,NO,NO,TRI
+206,Trifluralin,497.85,6,15,NO,YES,NO,PBT
+207,Bromotrifluoromethane (Halon 1301),468.0,1,1,NO,NO,NO,TRI
+208,Carbofuran,452.4,2,12,NO,NO,NO,TRI
+209,"2,4-D 2-butoxyethyl ester",375.95,2,14,YES,NO,NO,TRI
+210,Captan,301.7,2,8,NO,NO,NO,TRI
+211,Isoprene,290.34,4,14,YES,NO,NO,TRI
+212,Atrazine,280.35,2,10,NO,NO,NO,TRI
+213,Allyl alcohol,232.48000000000002,2,15,NO,NO,NO,TRI
+214,Hydrazine,212.9,3,15,YES,NO,NO,TRI
+215,Chlorobenzene,206.25,2,15,NO,NO,NO,TRI
+216,2-Ethoxyethanol,202.0,1,1,NO,NO,NO,TRI
+217,Lithium carbonate,191.03,4,14,NO,NO,NO,TRI
+218,Metribuzin,188.08,4,15,NO,NO,NO,TRI
+219,Picloram,186.45000000000002,1,9,NO,NO,NO,TRI
+220,Triclopyr-triethylammonium salt,165.88,2,15,NO,NO,NO,TRI
+221,Calcium cyanamide,163.541,1,15,NO,NO,NO,TRI
+222,"1,1,1-Trifluoro-N-[(trifluoromethyl)sulfonyl] methanesulfonamide (TFSI)",152.0,1,1,NO,NO,YES,TRI
+223,m-Cresol,145.62,2,15,NO,NO,NO,TRI
+224,"1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-hexamethylcyclopenta[g]-2-benzopyran",126.971,8,2,NO,YES,NO,PBT
+225,Diethyl sulfate,126.8,3,15,YES,NO,NO,TRI
+226,Oxadiazon,126.0,1,6,NO,NO,NO,TRI
+227,Chlorimuron-ethyl,120.372,2,14,NO,NO,NO,TRI
+228,Triadimefon,114.64,1,14,NO,NO,NO,TRI
+229,Hexachlorobenzene,114.51,3,15,YES,YES,NO,PBT
+230,"1,1,2-Trichloroethane",104.0,1,10,NO,NO,NO,TRI
+231,Folpet,102.62,2,8,NO,NO,NO,TRI
+232,Tribenuron-methyl,91.024,1,11,NO,NO,NO,TRI
+233,Bromoxynil,85.58,2,8,NO,NO,NO,TRI
+234,Carbaryl,83.5,1,10,NO,NO,NO,TRI
+235,Sodium dimethyldithiocarbamate,76.621,5,15,NO,NO,NO,TRI
+236,Diallate,75.0,1,10,NO,NO,NO,TRI
+237,"2,4-Dichlorophenol",72.0,1,10,NO,NO,NO,TRI
+238,Carbon tetrachloride,69.04,1,11,YES,NO,NO,TRI
+239,"1,1,2,2-Tetrachloroethane",67.0,1,10,YES,NO,NO,TRI
+240,"4,4'-Methylenebis(2-chloroaniline)",65.0,3,15,YES,NO,NO,TRI
+241,3-Chloropropionitrile,65.0,1,10,NO,NO,NO,TRI
+242,Chlorsulfuron,59.556,1,13,NO,NO,NO,TRI
+243,"1,1,1,2-Tetrachloroethane",57.0,1,10,YES,NO,NO,TRI
+244,Furan,47.0,1,9,YES,NO,NO,TRI
+245,Aldrin,45.54,1,15,NO,YES,NO,PBT
+246,p-Xylene,45.0,1,7,NO,NO,NO,TRI
+247,"2,6-Xylidine",43.0,1,1,YES,NO,NO,TRI
+248,Decabromodiphenyl oxide,40.0,3,9,NO,NO,NO,TRI
+249,Thiodicarb,39.18,1,8,NO,NO,NO,TRI
+250,Chlordane,37.42,1,13,YES,YES,NO,PBT
+251,Perfluorobutane sulfonic acid,34.81,1,2,NO,NO,YES,TRI
+252,Pentachlorobenzene,32.903,2,14,NO,YES,NO,PBT
+253,Diazinon,31.21,1,10,YES,NO,NO,TRI
+254,Propoxur,28.9,1,3,NO,NO,NO,TRI
+255,Dimethoate,25.0,1,2,NO,NO,NO,TRI
+256,Pendimethalin,24.8,1,15,NO,YES,NO,PBT
+257,Methoxychlor,21.13,1,15,NO,YES,NO,PBT
+258,Methyl hydrazine,21.0,1,3,NO,NO,NO,TRI
+259,Propiconazole,20.42,2,13,NO,NO,NO,TRI
+260,Heptachlor,20.33,1,15,YES,YES,NO,PBT
+261,Lindane,20.3,1,4,YES,NO,NO,TRI
+262,Warfarin and salts,20.0,1,2,NO,NO,NO,TRI
+263,Monochloropentafluoroethane (CFC-115),15.0,1,13,NO,NO,NO,TRI
+264,Dichlorobenzene (mixed isomers),15.0,1,4,YES,NO,NO,TRI
+265,"Ethylenebisdithiocarbamic acid, salts and esters",13.0,1,2,NO,NO,NO,TRI
+266,Amitraz,13.0,1,1,NO,NO,NO,TRI
+267,"2,4-Dinitrotoluene",12.0,3,12,YES,NO,NO,TRI
+268,Zineb,12.0,1,1,NO,NO,NO,TRI
+269,Sodium azide,11.879999999999999,1,3,NO,NO,NO,TRI
+270,C.I. Direct Black 38,11.0,1,1,YES,NO,NO,TRI
+271,"1,1,1,2-Tetrachloro-2-fluoroethane (HCFC-121a)",10.392,1,1,NO,NO,NO,TRI
+272,Allyl chloride,10.280000000000001,1,2,NO,NO,NO,TRI
+273,"3,3'-Dichlorobenzidine dihydrochloride",9.809999999999999,1,15,YES,NO,NO,TRI
+274,"1,4-Dichlorobenzene",9.79,2,4,YES,NO,NO,TRI
+275,Malononitrile,9.0,1,2,NO,NO,NO,TRI
+276,Maneb,9.0,1,1,NO,NO,NO,TRI
+277,Malathion,9.0,1,3,YES,NO,NO,TRI
+278,Toxaphene,7.64,1,15,YES,YES,NO,PBT
+279,"3,3'-Dimethoxybenzidine dihydrochloride",7.432,1,14,YES,NO,NO,TRI
+280,"1,1-Dimethylhydrazine",7.0,1,1,YES,NO,NO,TRI
+281,Formamide,6.96,1,1,NO,NO,NO,TRI
+282,p-Cresol,6.63,2,9,NO,NO,NO,TRI
+283,Hexazinone,6.53,1,14,NO,NO,NO,TRI
+284,Nitrobenzene,6.51,1,1,YES,NO,NO,TRI
+285,Urethane,6.0,1,1,YES,NO,NO,TRI
+286,"1-(3-Chloroallyl)-3,5,7-triaza-1-azoniaadamantane chloride",6.0,2,6,NO,NO,NO,TRI
+287,o-Cresol,6.0,1,1,NO,NO,NO,TRI
+288,Desmedipham,6.0,1,1,NO,NO,NO,TRI
+289,"S,S,S-Tributyltrithiophosphate",6.0,1,1,NO,NO,NO,TRI
+290,Cyfluthrin,6.0,1,1,NO,NO,NO,TRI
+291,Methiocarb,6.0,1,1,NO,NO,NO,TRI
+292,Hexafluoropropylene oxide dimer acid,5.5,1,2,NO,NO,YES,TRI
+293,Trade Secret,5.0,1,1,NO,NO,NO,TRI
+294,Benzoyl chloride,5.0,1,1,NO,NO,NO,TRI
+295,Amitrole,4.64,1,1,YES,NO,NO,TRI
+296,2-Methyllactonitrile,4.1,1,1,NO,NO,NO,TRI
+297,"4,4'-Methylenedianiline",4.0,1,2,YES,NO,NO,TRI
+298,"1,3-Dichlorobenzene",4.0,1,1,NO,NO,NO,TRI
+299,Thiabendazole,3.65,1,1,NO,NO,NO,TRI
+300,"2,4-DP",3.0,1,1,YES,NO,NO,TRI
+301,Parathion,3.0,1,1,YES,NO,NO,TRI
+302,Nitroglycerin,3.0,4,15,NO,NO,NO,TRI
+303,Hexachloroethane,3.0,1,1,YES,NO,NO,TRI
+304,Dimethyl chlorothiophosphate,3.0,1,1,NO,NO,NO,TRI
+305,Benzamide,2.0,1,1,NO,NO,NO,TRI
+306,Chlorophenols,1.0,1,1,YES,NO,NO,TRI
+307,Perfluorohexanesulfonic acid,0.6,1,2,NO,NO,YES,TRI
+308,N-Hydroxyethylethylenediamine,0.5,2,2,NO,NO,NO,TRI
+309,Perfluorooctane sulfonic acid,0.43,1,2,NO,NO,YES,TRI
+310,Perfluorooctanoic acid,0.30000000000000004,3,3,YES,NO,YES,TRI
+311,Permethrin,0.1,2,11,NO,NO,NO,TRI
+312,Perfluorononanoic acid,0.0,1,1,NO,NO,YES,TRI
+313,Methoxone sodium salt,0.0,1,4,YES,NO,NO,TRI
+314,Nitrilotriacetic acid trisodium salt,0.0,2,2,NO,NO,NO,TRI
+315,Oxyfluorfen,0.0,1,1,NO,NO,NO,TRI
+316,"1-Chloro-1,1,2,2-tetrafluoroethane (HCFC-124a)",0.0,1,1,NO,NO,NO,TRI
+317,Perfluorohexanoic acid (PFHxA),0.0,1,1,NO,NO,YES,TRI
+318,Myclobutanil,0.0,1,10,NO,NO,NO,TRI
+319,Diflubenzuron,0.0,2,1,NO,NO,NO,TRI
+320,Quinone,0.0,1,8,NO,NO,NO,TRI
+321,"Isopropyl alcohol (only persons who manufacture by the strong acid process are subject, no supplier notification)",0.0,1,1,NO,NO,NO,TRI
+322,Fomesafen,0.0,2,1,NO,NO,NO,TRI
+323,Potassium heptafluorobutanoate,0.0,1,1,NO,NO,YES,TRI
+324,Phenothrin,0.0,1,5,NO,NO,NO,TRI
+325,Lithium bis[(trifluoromethyl)sulfonyl] azanide,0.0,1,1,NO,NO,YES,TRI
+326,Mecoprop,0.0,1,13,YES,NO,NO,TRI
+327,Phenolphthalein,0.0,1,1,YES,NO,NO,TRI
+328,Temephos,0.0,1,2,NO,NO,NO,TRI
+329,Benfluralin,0.0,1,2,NO,NO,NO,TRI
+330,Carboxin,0.0,2,7,NO,NO,NO,TRI
+331,Chlorotrifluoromethane (CFC-13),0.0,1,11,NO,NO,NO,TRI
+332,Dazomet,0.0,1,1,NO,NO,NO,TRI
+333,Beryllium,0.0,4,14,YES,NO,NO,TRI
+334,"Toluene-2,6-diisocyanate",0.0,2,6,YES,NO,NO,TRI
