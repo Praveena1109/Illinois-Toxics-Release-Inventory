@@ -2,8 +2,7 @@
 
 > A reproducible data curation project transforming 15 years of U.S. EPA annual regulatory files into a structured, documented, and reusable environmental research resource.
 
-**Dataset scope:** Illinois · 2010–2024 · 58,317 records · 1,533 facilities · 334 chemicals  
-**Curator:** Praveena  
+**Dataset scope:** Illinois · 2010–2024 · 58,317 records · 1,533 facilities · 334 chemicals   
 **Status:** Active - Phase 5 (Documentation) in progress
 
 ---
@@ -16,8 +15,7 @@
 4. [Curation Decisions](#5-curation-decisions)
 5. [Known Limitations](#6-known-limitations)
 6. [Data Provenance](#7-data-provenance)
-7. [How to Reproduce](#8-how-to-reproduce)
-8. [References](#9-references)
+7. [References](#9-references)
 
 ---
 
@@ -182,23 +180,7 @@ All curation transformations are documented in `docs/curation_log.md`.
 
 ---
 
-## 7. How to Reproduce
-
-The full curation pipeline is implemented in five numbered Python scripts in `scripts/`. Run them in order.
-
-**Dependencies:**
-```
-pandas>=2.0
-numpy>=1.24
-```
-
-Install: `pip install -r requirements.txt`
-
-**Expected run time:** < 2 minutes for all 15 years of data on a standard laptop.
-
----
-
-## 8. References
+## 7. References
 
 U.S. Environmental Protection Agency. (2024). *TRI Basic Data Files Documentation (RY 2023)*. https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-guide
 
