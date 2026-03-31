@@ -1,4 +1,4 @@
-# Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010–2024
+## Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010–2024
 
 > A reproducible data curation project transforming 15 years of U.S. EPA annual regulatory files into a structured, documented, and reusable environmental research resource.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Table of Contents
+### Table of Contents
 
 1. [Project Overview](#1-project-overview)
 2. [Repository Structure](#2-repository-structure)
@@ -19,7 +19,7 @@
 
 ---
 
-## 1. Project Overview
+### 1. Project Overview
 
 The **Toxics Release Inventory (TRI)** is an annual self-reporting program under EPCRA Section 313, requiring industrial facilities above threshold levels to report releases of over 800 toxic chemicals to air, water, and land. This project curates the **Illinois subset** of TRI Basic Data Files for 2010–2024.
 
@@ -35,7 +35,7 @@ Raw TRI files are publicly available but not independently understandable. This 
 
 ---
 
-## 2. Repository Structure
+### 2. Repository Structure
 
 ```
 illinois-tri-curation/
@@ -77,11 +77,9 @@ illinois-tri-curation/
 └── README.md
 ```
 
-> Download annual Illinois TRI Basic Data Files from the [EPA TRI download page](https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present) and place them in `data/` before running the pipeline.
-
 ---
 
-## 3. Dataset Description
+### 3. Dataset Description
 
 ### Unit of Observation
 Each record in `CLEANED_RECORDS.csv` represents a **facility × chemical × year** combination - the original TRI reporting unit. This preserves the regulatory structure of the source data.
@@ -124,7 +122,7 @@ Each record in `CLEANED_RECORDS.csv` represents a **facility × chemical × year
 
 ---
 
-## 4. Curation Decisions
+### 4. Curation Decisions
 
 ### Zero Value Semantics
 
@@ -153,7 +151,7 @@ Records with >100% year-over-year change in `TOTAL_RELEASES` for a given facilit
 
 ---
 
-## 5. Known Limitations
+### 5. Known Limitations
 
 | Limitation | Detail |
 |---|---|
@@ -167,7 +165,7 @@ Records with >100% year-over-year change in `TOTAL_RELEASES` for a given facilit
 
 ---
 
-## 6. Data Provenance
+### 6. Data Provenance
 
 **Original source:** U.S. Environmental Protection Agency  
 **Program:** Toxics Release Inventory (TRI)  
@@ -179,14 +177,10 @@ All curation transformations are documented in `docs/curation_log.md`.
 
 ---
 
-## 7. References
+### 7. References
 
 U.S. Environmental Protection Agency. (2024). *TRI Basic Data Files Documentation (RY 2023)*. https://www.epa.gov/system/files/documents/2025-09/basic_data_files_documentation_august_2024.pdf
 
 Wilkinson, M. D., et al. (2016). The FAIR guiding principles for scientific data management and stewardship. *Scientific Data, 3*, 160018.
 
 Strong, D. M., Lee, Y. W., & Wang, R. Y. (1997). Data quality in context. *Communications of the ACM, 40*(5), 103–110.
-
-Ray, J. M. (2014). *Introduction to research data management*. ALA Neal-Schuman.
-
-Peer, L., Green, A., & Stephenson, E. (2014). Committing to data quality review. *IASSIST Quarterly, 38*(1).
