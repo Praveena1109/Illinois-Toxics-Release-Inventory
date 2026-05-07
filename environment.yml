@@ -1,0 +1,10 @@
+name: illinois-tri-curation
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - pip

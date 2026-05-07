@@ -1,29 +1,39 @@
 {
-  "$schema": "",
-  "name": "Illinois Toxics Release Inventory (TRI) — Curated Dataset 2010–2024",
-  "identifier": "illinois-tri-curation-2010-2024",
-  "description": "A curated, reproducible dataset derived from U.S. EPA Toxics Release Inventory (TRI) Basic Data Files for the state of Illinois, covering reporting years 2010 through 2024. The dataset integrates 15 annual CSV files into a unified resource with systematic quality assessment, curation flags, and multiple structured derivative outputs.",
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010-2024",
+  "alternateName": "Illinois TRI Curated Dataset",
+  "identifier": [
+    "illinois-tri-curation-2010-2024",
+    "https://github.com/Praveena1109/Illinois-Toxics-Release-Inventory",
+    "https://sandbox.zenodo.org/records/493838"
+  ],
   "version": "1.0.0",
-  "dateCreated": "2026-03-01",
-  "dateModified": "2026-03-31",
+  "description": "A curated, reproducible dataset derived from the U.S. Environmental Protection Agency (EPA) Toxics Release Inventory (TRI) Basic Data Files for Illinois, covering reporting years 2010 through 2024. The dataset integrates 15 annual CSV files into a unified research resource with systematic quality assessment, curation flags, multiple structured derivative outputs, documentation, provenance records, and preservation-oriented metadata.",
   "creator": {
     "@type": "Person",
-    "name": "Praveena",
+    "name": "Praveena Acharya",
     "affiliation": {
       "@type": "Organization",
-      "name": "University of Illinois at Urbana-Champaign",
+      "name": "University of Illinois Urbana-Champaign",
       "department": "School of Information Sciences"
     }
   },
   "publisher": {
     "@type": "Organization",
-    "name": "University of Illinois at Urbana-Champaign"
+    "name": "University of Illinois Urbana-Champaign"
   },
-  "license": "",
+  "dateCreated": "2026-03-01",
+  "dateModified": "2026-05-06",
+  "datePublished": "2026-04-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "isBasedOn": {
     "@type": "Dataset",
     "name": "Toxics Release Inventory (TRI) Basic Data Files",
-    "publisher": "U.S. Environmental Protection Agency (EPA)",
+    "publisher": {
+      "@type": "Organization",
+      "name": "U.S. Environmental Protection Agency"
+    },
     "url": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present"
   },
   "spatialCoverage": {
@@ -34,75 +44,116 @@
       "box": "-91.51 36.97 -87.01 42.51"
     }
   },
-  "temporalCoverage": "2010/2024",
+  "temporalCoverage": "2010-01-01/2024-12-31",
   "keywords": [
-    "Toxics Release Inventory", "TRI", "Illinois", "toxic chemical releases",
-    "environmental data", "EPCRA", "air emissions", "water discharges"
+    "Toxics Release Inventory",
+    "TRI",
+    "Illinois",
+    "toxic chemical releases",
+    "environmental data",
+    "environmental justice",
+    "EPCRA",
+    "air emissions",
+    "water discharges",
+    "industrial pollution",
+    "data curation",
+    "FAIR data"
   ],
-  "measurementTechnique": "Annual self-reported regulatory data submitted by industrial facilities under EPCRA Section 313 using EPA Form R or Form A Certification Statement",
+  "inLanguage": "en",
+  "programmingLanguage": "Python",
+  "measurementTechnique": "Annual self-reported regulatory data submitted by industrial facilities under EPCRA Section 313 using EPA Form R or Form A Certification Statement.",
   "variableMeasured": [
-    "Total on-site and off-site chemical releases (pounds)",
-    "Fugitive and stack air emissions",
+    "Total on-site and off-site chemical releases",
+    "Fugitive air emissions",
+    "Stack air emissions",
     "Surface water discharges",
-    "Off-site transfers for disposal, recycling, energy recovery, and treatment",
+    "Off-site transfers for disposal",
+    "Off-site recycling",
+    "Off-site energy recovery",
+    "Off-site treatment",
     "Production-related waste quantities"
   ],
+  "recordCount": 58317,
+  "columnCount": 129,
+  "uniqueFacilities": 1533,
+  "uniqueChemicals": 334,
+  "yearsIncluded": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "sourceFiles": 15,
   "distribution": [
     {
       "@type": "DataDownload",
+      "name": "BASE_COMBINED.csv",
+      "encodingFormat": "text/csv",
+      "description": "Combined annual EPA TRI files before curation flags."
+    },
+    {
+      "@type": "DataDownload",
       "name": "CLEANED_RECORDS.csv",
-      "description": "Flagged, cleaned record-level dataset. Unit: facility x chemical x year.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "Flagged, cleaned record-level dataset. Unit: facility x chemical x year."
     },
     {
       "@type": "DataDownload",
       "name": "FACILITY_TIME_SERIES.csv",
-      "description": "Annual aggregated totals per facility.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "Annual aggregated totals per facility."
     },
     {
       "@type": "DataDownload",
       "name": "INDUSTRY_TIME_SERIES.csv",
-      "description": "Annual aggregated totals by NAICS industry sector.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "Annual aggregated totals by NAICS industry sector."
     },
     {
       "@type": "DataDownload",
       "name": "CHEMICAL_SUMMARY.csv",
-      "description": "All-years chemical release totals ranked by total release volume.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "All-years chemical release totals ranked by total release volume."
     },
     {
       "@type": "DataDownload",
       "name": "CHEMICAL_YEAR_TIME_SERIES.csv",
-      "description": "Release trends per chemical per year with chemical metadata.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "Release trends per chemical per year with chemical metadata."
     },
     {
       "@type": "DataDownload",
       "name": "YEAR_STATS.csv",
-      "description": "Dataset-level annual statistics.",
-      "encodingFormat": "text/csv"
+      "encodingFormat": "text/csv",
+      "description": "Dataset-level annual statistics."
     }
   ],
-  "recordCount": 58317,
-  "columnCount": 122,
-  "uniqueFacilities": 1533,
-  "uniqueChemicals": 334,
-  "yearsIncluded": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
-  "sourceFiles": 15,
   "curationActivities": [
-    "Schema harmonisation across 15 annual files",
+    "Manual acquisition documentation",
+    "Schema harmonization across 15 annual files",
     "Numeric prefix stripping from column names",
     "TRIFD/TRIFID naming inconsistency resolution",
     "Numeric type coercion for quantity fields",
     "Zero-value semantic analysis and flagging",
     "Form A identification and flagging",
     "Year-over-year change anomaly detection",
-    "Pathway aggregation (AIR_RELEASE_TOTAL, WATER_RELEASE_TOTAL)",
-    "Five derivative dataset construction",
+    "Pathway aggregation for air and water releases",
+    "Derivative dataset construction",
     "Data dictionary generation",
-    "Curation log"
+    "Curation log creation",
+    "Fixity manifest generation",
+    "Zenodo Sandbox metadata record creation"
   ],
   "qualityFlags": [
     "FLAG_MISSING_RELEASE",
@@ -111,16 +162,40 @@
     "FLAG_SUDDEN_CHANGE"
   ],
   "knownLimitations": [
-    "PFAS data available from RY 2020 only",
-    "POTW calculation methodology changed in RY 2014",
-    "Releases are facility-estimated, not directly measured",
-    "Only above-threshold facilities report; does not capture all statewide emissions",
-    "Some chemical identities sanitised as trade secrets"
+    "PFAS data are available from Reporting Year 2020 only.",
+    "POTW calculation methodology changed around Reporting Year 2014.",
+    "Releases are facility-estimated, not directly measured.",
+    "Only above-threshold facilities report under TRI; the dataset does not capture all statewide emissions.",
+    "Facility openings, closures, mergers, and threshold changes may affect trend interpretation.",
+    "Some chemical identities are sanitized as trade-secret submissions.",
+    "TRI data alone cannot determine direct exposure or health risk."
   ],
+  "missingValueConventions": {
+    "zeroReleaseValues": "A value of 0 in release fields may represent a true zero, not applicable pathway, historical blank reporting, or Form A reporting. Users should interpret zero values using FORM TYPE and curation flags.",
+    "missingReleaseFlag": "FLAG_MISSING_RELEASE identifies records where TOTAL_RELEASES is missing.",
+    "formAFlag": "FLAG_FORM_A identifies Form A certification records."
+  },
+  "provenance": {
+    "source": "U.S. EPA TRI Basic Data Files",
+    "rawFilesPreserved": true,
+    "workflowScripts": [
+      "scripts/01_acquisition_pipeline.py",
+      "scripts/02_quality_assessment.py",
+      "scripts/03_structuring_aggregation.py",
+      "scripts/04_data_dictionary.py",
+      "scripts/05_curation_log.py",
+      "scripts/06_fixity_manifest.py"
+    ],
+    "lineageDocumentation": "docs/provenance.md",
+    "curationLog": "docs/curation_log.md",
+    "acquisitionLog": "docs/acquisition_log.csv",
+    "fixityManifest": "docs/fixity_manifest.csv"
+  },
   "fairAlignment": {
-    "findable": "Structured metadata, consistent naming conventions, hierarchical key-value outputs",
-    "accessible": "Open CSV formats, publicly downloadable source data, GitHub-hosted pipeline",
-    "interoperable": "Standardised EPA TRI schema, NAICS classification system, CAS numbers",
-    "reusable": "Full data dictionary, curation log, reproducible pipeline"
-  }
+    "findable": "Repository metadata, descriptive title, keywords, GitHub repository, Zenodo Sandbox record, and CITATION.cff are provided.",
+    "accessible": "Data and documentation are shared in open file formats through GitHub and Zenodo Sandbox.",
+    "interoperable": "CSV, JSON, Markdown, EPA identifiers, TRIFID, CAS, FRS ID, and NAICS fields support interoperability.",
+    "reusable": "Data dictionary, user guide, curation log, provenance documentation, known limitations, and quality flags support informed reuse."
+  },
+  "citation": "Acharya, P. (2026). Illinois Toxics Release Inventory (TRI) - Curated Dataset (2010-2024) (Version 1.0.0). University of Illinois Urbana-Champaign. GitHub Repository. https://github.com/Praveena1109/Illinois-Toxics-Release-Inventory"
 }

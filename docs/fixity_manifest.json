@@ -1,0 +1,178 @@
+{
+  "generated_at_utc": "2026-05-06T21:37:59.382286+00:00",
+  "file_count": 24,
+  "algorithm_notes": {
+    "md5": "Included because many repositories display MD5 checksums.",
+    "sha256": "Included as a stronger integrity check."
+  },
+  "files": [
+    {
+      "path": "docs/acquisition_log.csv",
+      "size_bytes": 485,
+      "md5": "646deba43aaea216697b9ab90e6c468c",
+      "sha256": "caedcb134fc23f34fd9b01c69a2d615906cd3e4c19c7fb672fd16035cd1dd43f",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/curation_log.json",
+      "size_bytes": 7391,
+      "md5": "89fbe0cfddd37d027188e3a853ddf610",
+      "sha256": "f6b371aa24067d6c9596babde341d5686f7848cf0fe871c060309f43ce74f83f",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/curation_log.md",
+      "size_bytes": 6824,
+      "md5": "de3fd5e1318193b24712ceff423e012f",
+      "sha256": "a659398bdd3194cdc62ae0845879bf261d68d2a6d8c198f2c5578cade994e247",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/data_dictionary.csv",
+      "size_bytes": 22554,
+      "md5": "76afe2ae03adc31f98904a95b88e5288",
+      "sha256": "613b930c949f91b13a696615305b84afd25f2a2c4993d2e6f6227b8b92b3442a",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/data_dictionary.json",
+      "size_bytes": 45045,
+      "md5": "c85782fb92e61386cb3ed5008633563a",
+      "sha256": "53914011704dc8581f5b96f768ea06dcd3bc7400991bfa68aee7060d67bb0e6d",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/quality_report.json",
+      "size_bytes": 969,
+      "md5": "3e5a289abcd0175ce3513059448238ef",
+      "sha256": "678ed852938ddd0deba3c5ed30a2c76d8f28fb83ef9cbee633fd691c745ad2ba",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/run_summary.json",
+      "size_bytes": 357,
+      "md5": "f2f5a0ec7d33e7ae3a026c2153a87957",
+      "sha256": "2a01dc6ff7a87d6d365b0b99301a260a49bf1c6c052f7f32e75af00f9f58e21d",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "docs/structuring_provenance.json",
+      "size_bytes": 386,
+      "md5": "a33cde72e6500dfcd8582f0539679bc5",
+      "sha256": "21093af29097b7f9f340626511c8715ae1f445d1498c25f6497278d19ad10fe9",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "metadata/dataset_metadata.json",
+      "size_bytes": 4919,
+      "md5": "476f10ce397b204401888164594c3ccb",
+      "sha256": "2fac0409b7c4535b3f812e09fa8d03bfd9c535693c0e2ab55f498f8c298a29e1",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/BASE_COMBINED.csv",
+      "size_bytes": 37106326,
+      "md5": "aaae26fae8d6554ffccdcfd737dd82f6",
+      "sha256": "6e926259c6ed2cd232384109c51bc5593fb10279f9161c46ff1f148595b601c2",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/CHEMICAL_SUMMARY.csv",
+      "size_bytes": 17414,
+      "md5": "330f5e7464c2f3ac994c779d406e50f7",
+      "sha256": "7edef52e3a70e81eb9f7efa22f1345cb32fa3230a5e6bd99e40591af5b0de384",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/CHEMICAL_YEAR_TIME_SERIES.csv",
+      "size_bytes": 460302,
+      "md5": "bf86716f83ada39e708271de0ec93e2d",
+      "sha256": "5952c3f7747a146efdb1e62634cf0d4c84c9ea77daa57aba6817d18eeb547485",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/CLEANED_RECORDS.csv",
+      "size_bytes": 38694365,
+      "md5": "03a94022a336b80d9eb919f3c074fba7",
+      "sha256": "c83ef0464012a80e748cac6b98eb62f9d8768ce15b644fdb24ff3709a9bf73bc",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/FACILITY_TIME_SERIES.csv",
+      "size_bytes": 1615442,
+      "md5": "0784e0e2587882ce1873968f2518491d",
+      "sha256": "b4bd4deaa99e15f6dadba4c5c1cabeaa7003fbce60f72461d0c67e5d86dc2f49",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/INDUSTRY_TIME_SERIES.csv",
+      "size_bytes": 23725,
+      "md5": "a5734f55226a008c94267b0fe3f91d3f",
+      "sha256": "06d255e821a55fd87f8f1b8b1135fae1e6f05b77c77d0a520b332cbc415833f5",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "outputs/YEAR_STATS.csv",
+      "size_bytes": 1136,
+      "md5": "a541fe5ebacf68b34dfe88f39670f9bc",
+      "sha256": "93bd41909d094c99ad035bd9ce96d760d5a3a4bd8646a3a83ab779cad30b5316",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 9366,
+      "md5": "bc12559e6bb7d32bc1eb16b4c2028908",
+      "sha256": "548d79390c271958e5b5a54208043ab658045ec7095b0bf17103e603014a924e",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 28,
+      "md5": "277d18dfe4b8f74fccc5dc443f1295f4",
+      "sha256": "8654980b109e8f0ee6ad3753f00585c774370cc475f230fed0f08da4ea66c529",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/01_acquisition_pipeline.py",
+      "size_bytes": 4126,
+      "md5": "7c83e79c8aa10ed62c17b9b3cfc4d070",
+      "sha256": "5fd69668799007b5edaa82b14ed6b5c52d5bc9842779cbec7e3a8b70bf98ab65",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/02_quality_assessment.py",
+      "size_bytes": 9082,
+      "md5": "483e7a8b5cc8f495b9ab0781026618f4",
+      "sha256": "a7c099eb9db36a7bc42b7f0c1e3d6b4a04ea5bdbc3a1fbff9c8d9af3454c50f6",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/03_structuring_aggregation.py",
+      "size_bytes": 7954,
+      "md5": "2c80d83428821add607f034de5bde113",
+      "sha256": "5f5e1ceb8adc79c42a03d890c1aded9f9ca80b2601a4b7ce675183e4d352284d",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/04_data_dictionary.py",
+      "size_bytes": 10886,
+      "md5": "3d87ff7dcbb34a16d6d717915fcf8309",
+      "sha256": "12f3e7db6ea98cf1c7acb68b56419b6a4fca6897b8c641cd932958628064d4e7",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/05_curation_log.py",
+      "size_bytes": 9148,
+      "md5": "c3a53b833f58e084f1b84f7a49c6fcc3",
+      "sha256": "80cfba33e0c8bbcd4f94210667712d490387223b8166cde28e02b2d03119aada",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    },
+    {
+      "path": "scripts/06_fixity_manifest.py",
+      "size_bytes": 3474,
+      "md5": "a0f521ff013d78ace6e7a733fbf268db",
+      "sha256": "b5d677c6fc82b06bbc76aa4b5ad64eac62ff01e973075bbe3c79d0bb44bdc083",
+      "generated_at_utc": "2026-05-06T21:37:59.382286+00:00"
+    }
+  ]
+}

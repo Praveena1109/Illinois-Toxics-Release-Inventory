@@ -1,0 +1,23 @@
+Repository License Notice
+
+This repository contains three types of material:
+
+1. Original source data from the U.S. Environmental Protection Agency Toxics Release Inventory (TRI) Program.
+2. Curated derivative datasets and documentation created for this project.
+3. Python workflow scripts created for this project.
+
+Source Data
+
+The original TRI data are public regulatory data produced by the U.S. Environmental Protection Agency. Users should cite the EPA TRI Program and follow EPA guidance when interpreting or reusing the source data.
+
+Curated Dataset and Documentation
+
+The curated datasets, metadata, README, data dictionary, curation log, provenance documentation, and preservation documentation created in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Code
+
+The Python scripts in the `scripts/` directory may be reused, modified, and redistributed with attribution for educational and research purposes.
+
+No Warranty
+
+This repository is provided for research, educational, and data curation purposes. The curated dataset preserves and documents EPA-reported data but does not independently verify the accuracy of facility-reported release quantities.

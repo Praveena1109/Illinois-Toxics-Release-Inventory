@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010-2024"
+message: "If you use this curated dataset or workflow, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: Acharya
+    given-names: Praveena
+    affiliation: "University of Illinois Urbana-Champaign"
+version: "1.0.0"
+date-released: "2026-04-28"
+repository-code: "https://github.com/Praveena1109/Illinois-Toxics-Release-Inventory"
+url: "https://github.com/Praveena1109/Illinois-Toxics-Release-Inventory"
+license: "CC-BY-4.0"
+keywords:
+  - Toxics Release Inventory
+  - TRI
+  - Illinois
+  - environmental data
+  - data curation
+  - FAIR data
+  - EPCRA
+abstract: "A curated, reproducible dataset derived from U.S. EPA Toxics Release Inventory Basic Data Files for Illinois, covering reporting years 2010 through 2024. The package includes cleaned records, derivative time-series outputs, metadata, provenance, documentation, and reproducible Python workflow scripts."
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: Acharya
+      given-names: Praveena
+  title: "Illinois Toxics Release Inventory (TRI) - Curated Dataset 2010-2024"
+  version: "1.0.0"
+  date-released: "2026-04-28"
+  publisher:
+    name: "University of Illinois Urbana-Champaign"
+  url: "https://github.com/Praveena1109/Illinois-Toxics-Release-Inventory"
